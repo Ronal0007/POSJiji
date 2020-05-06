@@ -1,0 +1,56 @@
+1. POS
+    -id
+    -imei
+    -sno
+    -user_id
+
+2. TOOL
+    -id
+    -name
+
+3.STATUS pos & activity tools status
+    -id
+    -owner_id eg. 5
+    -owner_type eg. App/POS or App/ACTIVITY
+    -tools //array
+
+
+
+4. EVENT
+    -id
+    -event_id
+    -POS_id
+    -event_type
+
+5. HANDOVER
+    -id
+    -fname
+    -mname
+    -lname
+    -user_phone
+    -pos_phone
+    -kata
+    -user_id
+
+6. ACTIVITY(from customer or technician) has statuses morph
+    -id
+    -type_id
+    -description
+    -user_id
+
+7. TYPE
+    -id
+    -title NB. From customer, To tech & from tech
+
+8.USER
+    -id
+    -email
+    -password
+    -fname
+    -lname
+
+
+
+
+REPORTING
+
